@@ -30,5 +30,5 @@ listItem.forEach((item) => {
 	item.addEventListener('click', (e) => {
 		e.target.classList.toggle('red');
 	});
-	
 });
+
