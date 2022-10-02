@@ -1,0 +1,51 @@
+/* file for null some setting */
+
+/* first part */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-weight: inherit;
+
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}

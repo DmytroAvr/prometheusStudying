@@ -1,0 +1,112 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,regular,600,700&display=swap");
+
+body {
+	font-family: "Source Sans ro", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+[class*=__container] {
+	max-width: 652px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+/* header */
+.header {
+	background-color: #A9BFE4;
+	font-family: 'Lora';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+}
+.header__container {
+	/*padding-top: 30px;*/
+	display: flex;
+	justify-content: space-between;
+}
+.header__logo {
+	margin-top: 8px;
+	margin-bottom: 6px;
+	background: url(../img/logo.png)  0 0 no-repeat;
+	width: 137px;
+	height: 55px;
+}
+.header__nav {
+}
+.nav {
+	display: flex;
+}
+.nav__items {
+	display: flex;
+	align-items: center;
+	
+}
+.nav__item:not(:last-child) {
+	margin-right: 19px;
+}
+.nav__item {
+}
+.header__icons {
+	display: flex;
+	align-items: center;
+}
+.header__icons a:not(:last-child) {
+	margin-right: 15px;
+
+}
+.header__search {
+	background: url(../img/icons/search.png)  0 0 no-repeat;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.header__cart {
+	background: url(../img/icons/basket.png) 0 0 no-repeat;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+/* hero */
+.hero {
+}
+.hero__container {
+}
+.hero__text-block {
+}
+.hero__title {
+}
+.title {
+}
+.hero__sub-title {
+}
+.hero__buttons {
+}
+.hero__button {
+}
+.btn {
+}
+.hero__image-block {
+}
+
+/* about Us */
+.aboutUs {
+}
+.aboutUs__container {
+}
+.work-for-you {
+}
+.work-for-you__container {
+}
+
+/* footer */
+.footer {
+}
+.footer__container {
+}
